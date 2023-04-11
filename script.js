@@ -48,14 +48,12 @@ function displayTemperature(response) {
 
 function search(city) {
   let apiKey = "ac209dae1f283fb332a5bb7f50b0f468";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
-
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   axios.get(apiUrl).then(displayTemperature);
 }
 
 function showCity(event) {
   event.preventDefault();
-  let units = "metric";
   let city = document.querySelector("#search-input").value;
   search(city);
 }
