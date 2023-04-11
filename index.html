@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/344e3f034e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-app">
+        <form class="search-form" id="search-form">
+          <div class="row">
+            <div class="col-9">
+              <input
+                type="text"
+                id="search-input"
+                placeholder="Search"
+                class="form-control"
+              />
+            </div>
+            <div class="col-1">
+              <button
+                type="Submit"
+                id="search-button"
+                class="btn btn-light search-button"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+            <div class="col-1">
+              <button type="Submit" class="btn btn-light location-button">
+                <i class="fa-solid fa-map-pin"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+        <div class="overview" id="overview-weather">
+          <h1 id="current-city">OSLO</h1>
+          <div class="date" id="date-form">
+            <ul>
+              <li id="current-date">Sun 26/02</li>
+              <li id="current-time">18:34</li>
+            </ul>
+          </div>
+          <div class="temperature">
+            <div class="row">
+              <div class="col-6">
+                <i class="fa-solid fa-cloud principal-icon"></i>
+                <span id="current-temp"><strong>5</strong></span>
+                <a href="#" id="celsius-link">°C|</a
+                ><a href="#" id="fahrenheit-link">°F </a>
+              </div>
+
+              <div class="col-6">
+                <ul>
+                  <li class="extra-temp" id="description">Clear sky</li>
+                  <li class="extra-temp">
+                    Humidity: <span id="humidity">78</span>%
+                  </li>
+                  <li class="extra-temp">Wind: <span id="wind">4</span>km/h</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="weather-forecast">
+          <div class="row">
+            <div class="forecast-date">
+              <strong>Sun</strong>
+
+              <div>26/02</div>
+
+              <i class="fa-solid fa-cloud icons-forecast"></i>
+              <div class="forecast-temp">
+                <span class="temp"><strong>3°</strong>/-8° </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="forecast-date">
+              <strong>Mon</strong>
+              <div>27/02</div>
+              <i class="fa-solid fa-cloud icons-forecast"></i>
+              <div class="forecast-temp">
+                <span class="temp"><strong>5°</strong>/-4°</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="forecast-date">
+              <strong>Tue</strong>
+              <div>28/02</div>
+              <i class="fa-solid fa-cloud-sun icons-forecast"></i>
+              <div class="forecast-temp">
+                <span class="temp"><strong>5°</strong>/-4°</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="forecast-date">
+              <strong>Wed</strong>
+              <div>01/03</div>
+              <i class="fa-solid fa-sun icons-forecast"></i>
+              <div class="forecast-temp">
+                <span class="temp"><strong>4°</strong>/-4°</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="forecast-date">
+              <strong>Thu</strong>
+              <div>02/03</div>
+              <i class="fa-solid fa-cloud icons-forecast"></i>
+              <div class="forecast-temp">
+                <span class="temp"><strong>4°</strong>/-4°</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <p>
+        Open source code by
+        <a class="profile" href="https://www.instagram.com/giannina.levano"
+          ><em>Giannina Alne-Levano💜</em></a
+        >
+      </p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
