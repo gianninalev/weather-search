@@ -60,6 +60,7 @@ p {
 .temperature {
   display: block;
   text-align: center;
+  margin-top: 10px;
 }
 
 #current-temp {
