@@ -1,0 +1,134 @@
+h1 {
+  display: block;
+  text-align: left;
+  font-size: 50px;
+  font-weight: 800;
+  padding: 20px 10px 5px;
+}
+.date {
+  display: block;
+  text-align: left;
+  font-size: 15px;
+  line-height: 2px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.principal-icon {
+  font-size: 55px;
+  display: block;
+  position: static;
+  text-align: left;
+  margin: 0 auto;
+  padding: 25px 8px 5px 5px;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.profile {
+  text-decoration: none;
+}
+
+.weather-app {
+  display: block;
+  margin: 100px auto;
+  margin-bottom: 10px;
+  padding: 25px;
+  max-width: 500px;
+  border-radius: 10px;
+  background: linear-gradient(
+    57.4deg,
+    rgb(249, 206, 183) 4.6%,
+    rgb(234, 174, 202) 26%,
+    rgb(210, 182, 226) 49.1%,
+    rgb(173, 209, 242) 86.5%
+  );
+  color: #faf6e9;
+  font-family: "Nova Square", cursive;
+}
+
+.temperature {
+  display: block;
+  text-align: center;
+}
+
+#current-temp {
+  font-size: 40px;
+  padding: 0 auto;
+}
+
+ul {
+  font-size: 13px;
+  text-align: justify;
+  display: block;
+  margin-left: 60px;
+  padding-top: 20px;
+}
+
+.weather-forecast {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  margin-top: 30px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.forecast-date {
+  display: block;
+  text-align: center;
+}
+
+.forecast-temp {
+  display: block;
+  text-align: center;
+}
+
+.icons-forecast {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.search-button {
+  display: block;
+  color: #faf6e9;
+  background-color: transparent;
+  border-radius: 5px;
+  margin: 0 5px auto;
+  cursor: pointer;
+}
+
+.location-button {
+  display: block;
+  background-color: transparent;
+  margin: 0 20px auto;
+  padding: 0 auto;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #faf6e9;
+}
+
+#celsius-link {
+  text-decoration: none;
+  color: #faf6e9;
+  font-size: 25px;
+}
+
+#fahrenheit-link {
+  text-decoration: none;
+  color: #faf6e9;
+  font-size: 20px;
+  font-weight: 600;
+}
