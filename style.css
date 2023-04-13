@@ -15,11 +15,11 @@ h1 {
 }
 
 .principal-icon {
-  font-size: 55px;
   display: inline;
   text-align: left;
   margin-right: -5px;
   margin-top: -20px;
+  width: 40%;
 }
 
 li {
@@ -58,8 +58,9 @@ p {
 
 .temperature {
   display: block;
-  text-align: center;
+  text-align: left;
   margin-top: 13px;
+  padding-top: 18px;
 }
 
 #current-temp {
