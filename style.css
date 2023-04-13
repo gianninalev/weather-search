@@ -19,8 +19,6 @@ h1 {
   display: block;
   position: static;
   text-align: left;
-  margin: 0 auto;
-  padding: 25px 8px 5px 5px;
 }
 
 li {
@@ -65,7 +63,6 @@ p {
 
 #current-temp {
   font-size: 40px;
-  padding: 0 auto;
 }
 
 ul {
