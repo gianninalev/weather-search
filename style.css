@@ -16,9 +16,10 @@ h1 {
 
 .principal-icon {
   font-size: 55px;
-  display: block;
-  position: static;
+  display: inline;
   text-align: left;
+  margin-right: -5px;
+  margin-top: -20px;
 }
 
 li {
@@ -70,7 +71,7 @@ ul {
   text-align: justify;
   display: block;
   margin-left: 60px;
-  padding-top: 20px;
+  padding-top: -20px;
 }
 
 .weather-forecast {
