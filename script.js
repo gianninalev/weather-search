@@ -47,7 +47,7 @@ function displayTemperature(response) {
 
   let iconElement = document.querySelector("#icon");
   icon.Element.setAttribute(
-    "principal-icon",
+    "src",
     `https://openweathermap.org/img/wn/04d@2x.png`
   );
 }
