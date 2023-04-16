@@ -120,15 +120,16 @@ ul {
   color: #faf6e9;
 }
 
-#celsius-link {
-  text-decoration: none;
-  color: #faf6e9;
-  font-size: 20px;
+.units {
+  font-size: 16px;
 }
 
 #fahrenheit-link {
   text-decoration: none;
-  color: #faf6e9;
-  font-size: 20px;
-  font-weight: 500;
+}
+
+.temperature .active {
+  color: #defcf9;
+  cursor: default;
+  text-decoration: none;
 }
