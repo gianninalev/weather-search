@@ -76,29 +76,16 @@ ul {
 }
 
 .weather-forecast {
-  display: flex;
-  flex-direction: row;
-  font-size: 16px;
+  text-align: center;
   margin-top: 30px;
-  width: 100%;
-  justify-content: space-around;
 }
 
-.forecast-date {
-  display: block;
-  text-align: center;
+.weather-forecast-date {
+  font-size: 16px;
 }
 
-.forecast-temp {
-  display: block;
-  text-align: center;
-}
-
-.icons-forecast {
-  display: block;
-  text-align: center;
-  font-size: 30px;
-  padding: 20px;
+.weather-forecast-temperatures {
+  font-size: 13px;
 }
 
 .search-button {
