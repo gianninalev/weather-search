@@ -82,7 +82,6 @@ function displayForecast(response) {
 }
 
 function getForecast(coordinates) {
-  console.log(coordinates);
   let apiKey = "ac209dae1f283fb332a5bb7f50b0f468";
   let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&units=metric`;
 
@@ -128,4 +127,4 @@ let searchForm = document.querySelector("#search-form");
 
 searchForm.addEventListener("submit", showCity);
 
-search("Lima");
+search("Oslo");

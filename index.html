@@ -21,7 +21,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap"
       rel="stylesheet"
     />
 
@@ -36,7 +36,7 @@
               <input
                 type="text"
                 id="search-input"
-                placeholder="Search"
+                placeholder="Type a city..."
                 class="form-control"
               />
             </div>
@@ -44,14 +44,9 @@
               <button
                 type="Submit"
                 id="search-button"
-                class="btn btn-light search-button"
+                class="btn btn-outline-light search-button"
               >
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </button>
-            </div>
-            <div class="col-1">
-              <button type="Submit" class="btn btn-light location-button">
-                <i class="fa-solid fa-map-pin"></i>
+                Search
               </button>
             </div>
           </div>
@@ -73,8 +68,7 @@
                   class="principal-icon"
                   id="icon"
                 />
-                <strong id="current-temp"></strong
-                ><span class="units"> °C </span>
+                <span id="current-temp"> </span><span class="units">°C </span>
               </div>
 
               <div class="col-6">
@@ -89,8 +83,6 @@
             </div>
           </div>
         </div>
-
-        <hr />
 
         <div class="weather-forecast" id="forecast"></div>
       </div>

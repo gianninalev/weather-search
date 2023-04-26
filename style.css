@@ -1,14 +1,32 @@
+.weather-app {
+  display: block;
+  margin: 100px auto;
+  margin-bottom: 10px;
+  padding: 28px;
+  max-width: 500px;
+  border-radius: 15px;
+  background: linear-gradient(
+    57.4deg,
+    rgb(249, 206, 183) 4.6%,
+    rgb(234, 174, 202) 26%,
+    rgb(210, 182, 226) 49.1%,
+    rgb(173, 209, 242) 86.5%
+  );
+  color: #faf6e9;
+  font-family: "Unica One", cursive;
+}
+
 h1 {
   display: block;
   text-align: left;
-  font-size: 40px;
-  font-weight: 800;
+  font-size: 45px;
+  font-weight: 700;
   padding: 20px 10px 5px;
 }
 .date {
   display: block;
   text-align: left;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 2px;
   margin: 0 auto;
   padding: 0 10px;
@@ -18,8 +36,8 @@ h1 {
   display: inline;
   text-align: left;
   margin-right: -5px;
-  margin-top: -20px;
-  width: 40%;
+  margin-top: -29px;
+  width: 45%;
 }
 
 li {
@@ -38,24 +56,6 @@ p {
   text-decoration: none;
 }
 
-.weather-app {
-  display: block;
-  margin: 100px auto;
-  margin-bottom: 10px;
-  padding: 25px;
-  max-width: 500px;
-  border-radius: 10px;
-  background: linear-gradient(
-    57.4deg,
-    rgb(249, 206, 183) 4.6%,
-    rgb(234, 174, 202) 26%,
-    rgb(210, 182, 226) 49.1%,
-    rgb(173, 209, 242) 86.5%
-  );
-  color: #faf6e9;
-  font-family: "Nova Square", cursive;
-}
-
 .temperature {
   display: block;
   text-align: left;
@@ -64,49 +64,48 @@ p {
 }
 
 #current-temp {
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: 600;
 }
 
 ul {
-  font-size: 13px;
+  font-size: 15px;
   text-align: justify;
   display: block;
   margin-left: 60px;
-  padding-top: -20px;
 }
 
 .weather-forecast {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .weather-forecast-date {
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .weather-forecast-temperatures {
-  font-size: 13px;
+  font-size: 15px;
+}
+
+#search-input {
+  font-weight: 100;
+  font-size: 14px;
 }
 
 .search-button {
   display: block;
   color: #faf6e9;
+  font-weight: 500;
+  font-size: 14px;
   background-color: transparent;
   border-radius: 5px;
-  margin: 0 5px auto;
+  margin: 0 10px auto;
   cursor: pointer;
-}
-
-.location-button {
-  display: block;
-  background-color: transparent;
-  margin: 0 20px auto;
-  padding: 0 auto;
-  cursor: pointer;
-  border-radius: 5px;
-  color: #faf6e9;
 }
 
 .units {
-  font-size: 16px;
+  font-size: 18px;
+  position: relative;
+  top: -20px;
 }
