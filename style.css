@@ -1,10 +1,10 @@
 .weather-app {
   display: block;
   margin: 100px auto;
-  margin-bottom: 10px;
-  padding: 28px;
-  max-width: 500px;
-  border-radius: 15px;
+  margin-bottom: 13px;
+  padding: 35px;
+  max-width: 580px;
+  border-radius: 20px;
   background: linear-gradient(
     57.4deg,
     rgb(249, 206, 183) 4.6%,
@@ -44,18 +44,6 @@ li {
   list-style: none;
 }
 
-p {
-  display: block;
-  text-align: center;
-  font-size: 12px;
-  margin: 0 auto;
-  padding: 0;
-}
-
-.profile {
-  text-decoration: none;
-}
-
 .temperature {
   display: block;
   text-align: left;
@@ -72,7 +60,7 @@ ul {
   font-size: 15px;
   text-align: justify;
   display: block;
-  margin-left: 60px;
+  margin-left: 80px;
 }
 
 .weather-forecast {
@@ -90,17 +78,19 @@ ul {
 
 #search-input {
   font-weight: 100;
-  font-size: 14px;
+  font-size: 15px;
+  margin: 0 10px;
 }
 
 .search-button {
   display: block;
   color: #faf6e9;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 15px;
   background-color: transparent;
+  padding: 6px 15px;
   border-radius: 5px;
-  margin: 0 10px auto;
+  margin: 1px 20px;
   cursor: pointer;
 }
 
@@ -108,4 +98,18 @@ ul {
   font-size: 18px;
   position: relative;
   top: -20px;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin: 0 auto;
+  padding: 0;
+  color: grey;
+  font-family: "Unica One", cursive;
+}
+
+a {
+  text-decoration: none;
+  color: darkseagreen;
 }
