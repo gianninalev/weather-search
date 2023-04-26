@@ -110,13 +110,3 @@ ul {
 .units {
   font-size: 16px;
 }
-
-#fahrenheit-link {
-  text-decoration: none;
-}
-
-.temperature .active {
-  color: #defcf9;
-  cursor: default;
-  text-decoration: none;
-}
